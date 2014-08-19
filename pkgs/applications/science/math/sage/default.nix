@@ -3,11 +3,11 @@
 }:
 
 stdenv.mkDerivation rec {
-  name = "sage-6.1.1";
+  name = "sage-6.3";
 
   src = fetchurl {
-    url = "http://mirrors.xmission.com/sage/src/sage-6.1.1.tar.gz";
-    sha256 = "0kbzs0l9q7y34jv3f8rd1c2mrjsjkdgaw6mfdwjlpg9g4gghmq5y";
+    url = "http://mirrors.xmission.com/sage/src/sage-6.3.tar.gz";
+    sha256 = "bd317407271a7c8b94c1ff65b48b36ef9265685033005d5f748cc0c348e75033";
   };
 
   buildInputs = [ m4 perl gfortran texLive ffmpeg tk imagemagick liblapack ];
