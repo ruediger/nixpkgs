@@ -23,9 +23,8 @@ stdenv.mkDerivation rec {
   '';
 
   meta = {
-    homepage = http://www.scilab.org/;
-    description = "Scientific software package for numerical computations (Matlab lookalike)";
-    # see http://www.scilab.org/legal
-    license = "SciLab";
+    homepage = http://www.sagemath.org/;
+    description = "A mathematical software with features covering many aspects of mathematics, including algebra, combinatorics, numerical mathematics, number theory, and calculus";
+    license = stdenv.lib.licenses.gpl3;
   };
 }
